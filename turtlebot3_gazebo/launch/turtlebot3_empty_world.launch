@@ -6,7 +6,7 @@
   <arg name="open_rviz" default="true"/>
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find turtlebot3_gazebo)/worlds/hector_test_world.world"/>
+    <arg name="world_name" value="$(find turtlebot3_gazebo)/worlds/zone_I_NTU.world"/>
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>
